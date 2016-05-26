@@ -1,0 +1,37 @@
+﻿Build started 5/13/2016 12:42:25 PM.
+     1>Project "D:\CORSAIR\CERN\SOUNDSIGHT\SOUNDSIGHT\SOUNDSIGHT.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\main.cpp
+     1>cl : Command line warning D9025: overriding '/sdl' with '/GS-'
+         main.cpp
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(78): warning C4091: 'extern ' : ignored on left of 'gsound::dsp::SoundDeviceManagerWrapper' when no variable is declared
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(144): error C2027: use of undefined type 'gsound::dsp::SoundDeviceManagerWrapper'
+                 d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddeviceid.h(213) : see declaration of 'gsound::dsp::SoundDeviceManagerWrapper'
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(144): error C2065: 'deviceChangeMutex' : undeclared identifier
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(144): error C2228: left of '.acquire' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(147): error C2027: use of undefined type 'gsound::dsp::SoundDeviceManagerWrapper'
+                 d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddeviceid.h(213) : see declaration of 'gsound::dsp::SoundDeviceManagerWrapper'
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(147): error C2065: 'defaultOutputDeviceIndex' : undeclared identifier
+                 d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddeviceid.h(213) : see declaration of 'gsound::dsp::SoundDeviceManagerWrapper'
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(147): error C2065: 'outputDevices' : undeclared identifier
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(147): error C2228: left of '.getSize' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(151): error C2027: use of undefined type 'gsound::dsp::SoundDeviceManagerWrapper'
+                 d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddeviceid.h(213) : see declaration of 'gsound::dsp::SoundDeviceManagerWrapper'
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(151): error C2065: 'outputDevices' : undeclared identifier
+                 d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddeviceid.h(213) : see declaration of 'gsound::dsp::SoundDeviceManagerWrapper'
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(151): error C2065: 'defaultOutputDeviceIndex' : undeclared identifier
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(152): error C2512: 'gsound::dsp::SoundDeviceID' : no appropriate default constructor available
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(155): error C2027: use of undefined type 'gsound::dsp::SoundDeviceManagerWrapper'
+                 d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddeviceid.h(213) : see declaration of 'gsound::dsp::SoundDeviceManagerWrapper'
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(155): error C2065: 'deviceChangeMutex' : undeclared identifier
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\dsp\sounddevicemanager.h(155): error C2228: left of '.release' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\corsair\cern\soundsight\soundsight\include\gsound\internal\qbvharraytreenode.h(170): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\corsair\cern\soundsight\soundsight\source\main.cpp(334): error C2079: 'indeviceManager' uses undefined class 'gsound::dsp::SoundDeviceManagerWrapper'
+     1>Done Building Project "D:\CORSAIR\CERN\SOUNDSIGHT\SOUNDSIGHT\SOUNDSIGHT.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.64
